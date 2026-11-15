@@ -1,18 +1,17 @@
-Beauty Parlour Website
+# Beauty Parlour Website
 
 A web application developed for a beauty parlour client to showcase salon services, provide business information, and manage customer enquiries and appointments.
 
-Technology Stack
+## Technology Stack
 
-Frontend: HTML5, CSS3, JavaScript
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** Python, Django
+- **Database:** SQLite (Development)
+- **Version Control:** Git and GitHub
 
-Backend: Python, Django
+## Project Structure
 
-Database: SQLite (Development)
-
-Version Control: Git and GitHub
-
-Project Structure
+```text
 
 beauty-parlour-website/
 │
@@ -51,51 +50,60 @@ beauty-parlour-website/
 ├── .gitignore
 └── README.md
 
-Local Development Setup
+```
 
-1. Clone the repository
+## Local Development Setup
 
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/swethamanju2002/beauty-parlour-website.git
 cd beauty-parlour-website
+```
 
-2. Create a virtual environment
+### 2. Create a virtual environment
 
+```bash
 python -m venv venv
+```
 
-3. Activate the virtual environment
+### 3. Activate the virtual environment
 
 Windows:
 
+```bash
 venv\Scripts\activate
+```
 
-4. Install dependencies
+### 4. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-5. Apply migrations
+### 5. Apply migrations
 
+```bash
 python manage.py migrate
+```
 
-6. Run the development server
+### 6. Run the development server
 
+```bash
 python manage.py runserver
+```
 
 Open http://127.0.0.1:8000/ in your browser.
 
-Git Collaboration Guidelines
+## Git Collaboration Guidelines
 
-main – Stable and reviewed code.
+- `main` – Stable and reviewed code.
+- `swetha` – Swetha's development branch.
+- `shobana` – Shobana's development branch.
+- All changes must be pushed through feature branches.
+- Create a Pull Request before merging into `main`.
+- Never commit virtual environments, secret keys, or local database files.
 
-swetha-development – Swetha's development branch.
-
-friend-development – Friend's development branch.
-
-All changes must be pushed through feature branches.
-
-Create a Pull Request before merging into main.
-
-Never commit virtual environments, secret keys, or local database files.
-
-Project Status
+## Project Status
 
 Under Development.
